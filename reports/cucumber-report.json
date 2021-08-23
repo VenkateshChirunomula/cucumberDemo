@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-23T08:08:28.405Z",
+        "line": 4,
+        "name": "Login with valid testdata",
+        "description": "",
+        "id": "to-verify-the-login-test-feature;login-with-valid-testdata",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7628787700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be on the login page",
+            "match": {
+              "location": "cucumber.StepDefinations.user_should_be_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118930700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User entered valid username",
+            "match": {
+              "location": "cucumber.StepDefinations.user_entered_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109937600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User entered valid password",
+            "match": {
+              "location": "cucumber.StepDefinations.user_entered_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7025919300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicked on signin button",
+            "match": {
+              "location": "cucumber.StepDefinations.clicked_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[contains(text(),\u0027Dashboard\u0027)]\"}\n  (Session info: chrome\u003d91.0.4472.164)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-beta-4\u0027, revision: \u002729f46d02dd\u0027\nSystem info: host: \u0027INPU-JOSHIA\u0027, ip: \u0027192.168.0.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6defa11b077723b5599d81b89f050f04, findElement {using\u003dxpath, value\u003d//h1[contains(text(),\u0027Dashboard\u0027)]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\xk953210\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61711/devtoo..., se:cdpVersion: 91.0.4472.164, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6defa11b077723b5599d81b89f050f04\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1251)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)\r\n\tat cucumber.StepDefinations.user_should_be_on_the_homepage(StepDefinations.java:47)\r\n\tat ✽.User should be on the homepage(classpath:cucumber/userLogin.feature:9)\r\n",
+              "duration": 29982600,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User should be on the homepage",
+            "match": {
+              "location": "cucumber.StepDefinations.user_should_be_on_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@poistive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-23T08:08:43.441Z",
+        "line": 12,
+        "name": "Login with valid testdata",
+        "description": "",
+        "id": "to-verify-the-login-test-feature;login-with-valid-testdata",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5238388200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be on the login page",
+            "match": {
+              "location": "cucumber.StepDefinations.user_should_be_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107938700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User entered invalid username",
+            "match": {
+              "location": "cucumber.StepDefinations.user_entered_invalid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121926800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User entered invalid password",
+            "match": {
+              "location": "cucumber.StepDefinations.user_entered_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1046397700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Clicked on signin button",
+            "match": {
+              "location": "cucumber.StepDefinations.clicked_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5068910300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Application should show some validation message",
+            "match": {
+              "location": "cucumber.StepDefinations.application_should_show_some_validation_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negetive"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the login test feature",
+    "description": "",
+    "id": "to-verify-the-login-test-feature",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber/userLogin.feature",
+    "tags": []
+  }
+]
